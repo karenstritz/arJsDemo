@@ -3,7 +3,7 @@
 <body style='margin : 0px; overflow: hidden;'>
 	<a-scene embedded artoolkit='sourceType: webcam;'>
     <a-assets>
-      <a-asset-item id="robot-obj" src="/assets/model/robot.obj"></a-asset-item>
+      <a-asset-item id="robot-obj" src="robot.obj"></a-asset-item>
     </a-assets>
 		<a-entity position='0 0 0.5' obj-model="obj: #robot-obj; material=" color: #696969; roughness: 1; metalness: 0"></a-entity>
 		<a-marker-camera preset='hiro'></a-marker-camera>
